@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1635828671 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\main.cpp
+	<iostream>
+	<stdlib.h>
+	"src\Vector.cpp"
+	"src\Punto.cpp"
+	"src\Calculos.cpp"
+
+1635823864 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\punto.cpp
+	"Punto.h"
+
+1635823573 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\include\punto.h
+
+1635826163 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\vector.cpp
+	"Vector.h"
+	"Punto.h"
+
+1635826184 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\include\vector.h
+	"Punto.h"
+
+1635826163 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\vector.cpp
+	"Vector.h"
+	"Punto.h"
+
+1635823864 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\punto.cpp
+	"Punto.h"
+
+1635828601 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\calculos.cpp
+	"Calculos.h"
+	"math.h"
+	<iostream>
+	<stdlib.h>
+
+1635826950 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\include\calculos.h
+	"Punto.h"
+
+1635828601 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia4\src\calculos.cpp
+	"Calculos.h"
+	"math.h"
+	<iostream>
+	<stdlib.h>
+

@@ -1,0 +1,20 @@
+﻿  Operacion.cpp
+  main.cpp
+C:\Users\luis-\OneDrive\Documents\Software 3er Semestre\Estructura de Datos\Programas de visual studio\Luis_Espinosa_Deber6\Luis_Espinosa_Deber6\Operacion.cpp(17,14): warning C4244: 'inicializando': conversión de 'double' a 'G'; posible pérdida de datos
+          with
+          [
+              G=float
+          ]
+C:\Users\luis-\OneDrive\Documents\Software 3er Semestre\Estructura de Datos\Programas de visual studio\Luis_Espinosa_Deber6\Luis_Espinosa_Deber6\Operacion.cpp(14): message : al compilar la función del miembro clase plantilla "G Operacion<G>::anguloVec(Numero<G> &)"
+          with
+          [
+              G=float
+          ]
+C:\Users\luis-\OneDrive\Documents\Software 3er Semestre\Estructura de Datos\Programas de visual studio\Luis_Espinosa_Deber6\Luis_Espinosa_Deber6\main.cpp(36): message : Vea la referencia a la creación de una instancia de la función plantilla "G Operacion<G>::anguloVec(Numero<G> &)" que se está compilando
+          with
+          [
+              G=float
+          ]
+C:\Users\luis-\OneDrive\Documents\Software 3er Semestre\Estructura de Datos\Programas de visual studio\Luis_Espinosa_Deber6\Luis_Espinosa_Deber6\main.cpp(33): message : Vea la referencia a la creación de una instancia de clase plantilla "Operacion<float>" que se está compilando
+  Generando código...
+  Luis_Espinosa_Deber6.vcxproj -> C:\Users\luis-\OneDrive\Documents\Software 3er Semestre\Estructura de Datos\Programas de visual studio\Luis_Espinosa_Deber6\Debug\Luis_Espinosa_Deber6.exe

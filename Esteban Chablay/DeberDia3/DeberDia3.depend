@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1635736879 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\main.cpp
+	<iostream>
+	<stdlib.h>
+	"src\Numeros.cpp"
+	"src\Algebra.cpp"
+
+1635735159 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\src\numeros.cpp
+	"Numeros.h"
+
+1635735153 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\include\numeros.h
+	<stdlib.h>
+	<iostream>
+
+1635735159 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\src\numeros.cpp
+	"Numeros.h"
+
+1635736552 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\src\algebra.cpp
+	"Algebra.h"
+	<iostream>
+	<stdlib.h>
+
+1635735903 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\include\algebra.h
+
+1635736552 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia3\src\algebra.cpp
+	"Algebra.h"
+	<iostream>
+	<stdlib.h>
+
