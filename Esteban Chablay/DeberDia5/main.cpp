@@ -1,3 +1,11 @@
+/* UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
+Nombre del programa: Deber dia 5
+Autor: Esteban Chablay
+Fecha de creacion: 03/11/2021
+Fecha de modificacion: 03/11/2021
+7167 ESTRUCTURA DE DATOS
+*/
+
 #include <iostream>
 #include "src\Arreglo.cpp"
 #include "src\Procesos.cpp"
