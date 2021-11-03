@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1635914794 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\main.cpp
+	<iostream>
+	"src\Arreglo.cpp"
+	"src\Procesos.cpp"
+
+1635914590 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\src\arreglo.cpp
+	"Arreglo.h"
+	<iostream>
+	<stdlib.h>
+
+1635914525 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\include\arreglo.h
+	<stdlib.h>
+
+1635914590 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\src\arreglo.cpp
+	"Arreglo.h"
+	<iostream>
+	<stdlib.h>
+
+1635914622 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\src\procesos.cpp
+	"Procesos.h"
+	"Arreglo.h"
+	<iostream>
+	<stdlib.h>
+
+1635910627 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\include\procesos.h
+	"Arreglo.h"
+
+1635914622 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia5\src\procesos.cpp
+	"Procesos.h"
+	"Arreglo.h"
+	<iostream>
+	<stdlib.h>
+
