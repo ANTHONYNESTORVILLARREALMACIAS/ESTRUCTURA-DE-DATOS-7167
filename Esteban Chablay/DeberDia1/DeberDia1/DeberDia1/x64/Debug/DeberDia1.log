@@ -1,0 +1,5 @@
+﻿  Numero.cpp
+C:\Users\Esteban\Documents\MATERIAS S4\Estructura de Datos\Proyecto\DeberDia1\DeberDia1\Numero.cpp(11,2): error C2065: 'cout': identificador no declarado
+C:\Users\Esteban\Documents\MATERIAS S4\Estructura de Datos\Proyecto\DeberDia1\DeberDia1\Numero.h(3,6): message : Diagnóstico en la función 'void mostrarAbs(TIPOD)' generada por el compilador
+C:\Users\Esteban\Documents\MATERIAS S4\Estructura de Datos\Proyecto\DeberDia1\DeberDia1\Numero.cpp(11,2): error C3861: 'cout': no se encontró el identificador
+C:\Users\Esteban\Documents\MATERIAS S4\Estructura de Datos\Proyecto\DeberDia1\DeberDia1\Numero.h(3,6): message : Diagnóstico en la función 'void mostrarAbs(TIPOD)' generada por el compilador
