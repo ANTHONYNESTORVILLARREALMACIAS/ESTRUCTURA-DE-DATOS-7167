@@ -1,0 +1,16 @@
+﻿  OperacionPotencia.cpp
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio5\OperacionPotencia.cpp(7,10): warning C4244: '=': conversión de 'double' a 'tipoDato'; posible pérdida de datos
+          with
+          [
+              tipoDato=int
+          ]
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio5\OperacionPotencia.cpp(6): message : al compilar la función del miembro clase plantilla "tipoDato OperacionPotencia<tipoDato>::potencia(tipoDato,tipoDato)"
+          with
+          [
+              tipoDato=int
+          ]
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio5\OperacionPotencia.cpp(11): message : Vea la referencia a la creación de una instancia de clase plantilla "OperacionPotencia<int>" que se está compilando
+  main.cpp
+  numeros.cpp
+  Generando código...
+  Ejercicio5.vcxproj -> B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio5\x64\Debug\Ejercicio5.exe

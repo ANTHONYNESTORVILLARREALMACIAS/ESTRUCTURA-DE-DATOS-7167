@@ -1,0 +1,5 @@
+﻿  OperacionDivision.cpp
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio4\OperacionDivision.cpp(13): warning C4715: 'OperacionDivision<float>::division': no todas las rutas de acceso de control devuelven un valor
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio4\OperacionDivision.cpp(13): warning C4715: 'OperacionDivision<int>::division': no todas las rutas de acceso de control devuelven un valor
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio4\OperacionDivision.cpp(13): warning C4715: 'OperacionDivision<double>::division': no todas las rutas de acceso de control devuelven un valor
+  Ejercicio4.vcxproj -> B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\Ejercicio4\x64\Debug\Ejercicio4.exe
