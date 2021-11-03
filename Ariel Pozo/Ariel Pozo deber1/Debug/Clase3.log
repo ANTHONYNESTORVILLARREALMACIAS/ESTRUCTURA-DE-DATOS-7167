@@ -1,0 +1,15 @@
+﻿  Main.cpp
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(12,2): error C2976: 'Numero': no hay suficientes argumentos de plantilla
+C:\Users\ariel\Desktop\estructura\Clase3\Numero.h(6): message : vea la declaración de 'Numero'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(12,17): error C2133: 'string': tamaño desconocido
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(12,11): error C2512: 'Numero': no hay disponible un constructor predeterminado adecuado
+C:\Users\ariel\Desktop\estructura\Clase3\Numero.h(6,1): message : vea la declaración de 'Numero'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(15,16): error C2015: hay demasiados caracteres en la constante
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(15,25): error C2662: 'void Numero<T>::setNum(T)': no se puede convertir el puntero 'this' de 'Numero' a 'Numero<T> &'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(15,25): message : Razón: no se puede realizar la conversión de 'Numero' a 'Numero<T>'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(15,2): message : La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+C:\Users\ariel\Desktop\estructura\Clase3\Numero.h(9,7): message : vea la declaración de 'Numero<T>::setNum'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(19,59): error C2662: 'T Numero<T>::getNum(void) const': no se puede convertir el puntero 'this' de 'Numero' a 'const Numero<T> &'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(19,59): message : Razón: no se puede realizar la conversión de 'Numero' a 'const Numero<T>'
+C:\Users\ariel\Desktop\estructura\Clase3\Main.cpp(19,45): message : La conversión requiere un segundo operador de conversión definido por el usuario o constructor
+C:\Users\ariel\Desktop\estructura\Clase3\Numero.h(10,4): message : vea la declaración de 'Numero<T>::getNum'
