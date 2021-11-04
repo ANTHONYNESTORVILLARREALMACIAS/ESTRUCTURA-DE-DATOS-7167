@@ -1,8 +1,8 @@
 /* UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
-Nombre del programa: Ejercicio Deber Martes
+Nombre del programa: Ejercicio Deber Miercoles
 Autores: Anthony Villarreal
-Fecha de creacion: 02/11/2021
-Fecha de modificacion: 02/11/2021
+Fecha de creacion: 03/11/2021
+Fecha de modificacion: 03/11/2021
 7167 ESTRUCTURA DE DATOS
 */
 
