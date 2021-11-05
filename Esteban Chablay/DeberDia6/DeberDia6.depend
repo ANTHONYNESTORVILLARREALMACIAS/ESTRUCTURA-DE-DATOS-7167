@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1635999135 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\main.cpp
+	<iostream>
+	"src\Triangulo.cpp"
+	"src\Cuadrado.cpp"
+	"src\Circulo.cpp"
+	"src\Areas.cpp"
+
+1635995921 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\cuadrado.cpp
+	"Cuadrado.h"
+
+1635995626 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\include\cuadrado.h
+
+1635994950 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\figuras.cpp
+	"Figuras.h"
+
+1635994950 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\include\figuras.h
+
+1635995765 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\triangulo.cpp
+	"Triangulo.h"
+
+1635995910 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\include\triangulo.h
+
+1635996021 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\circulo.cpp
+	"Circulo.h"
+
+1635995512 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\include\circulo.h
+
+1635996864 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\areas.cpp
+	"Areas.h"
+	"Triangulo.h"
+	"Circulo.h"
+	"Cuadrado.h"
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
+1635996350 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\include\areas.h
+	"Cuadrado.h"
+	"Triangulo.h"
+	"Circulo.h"
+
+1635995765 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\triangulo.cpp
+	"Triangulo.h"
+
+1635995921 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\cuadrado.cpp
+	"Cuadrado.h"
+
+1635996021 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\circulo.cpp
+	"Circulo.h"
+
+1635996864 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\deberdia6\src\areas.cpp
+	"Areas.h"
+	"Triangulo.h"
+	"Circulo.h"
+	"Cuadrado.h"
+	<iostream>
+	<stdlib.h>
+	<math.h>
+
