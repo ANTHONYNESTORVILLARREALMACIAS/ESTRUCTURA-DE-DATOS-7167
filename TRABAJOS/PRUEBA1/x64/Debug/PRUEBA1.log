@@ -1,0 +1,6 @@
+﻿  Complejo.cpp
+  main.cpp
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\PRUEBA1\main.cpp(8,8): warning C4101: 'y': variable local sin referencia
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\PRUEBA1\main.cpp(8,6): warning C4101: 'x': variable local sin referencia
+  Generando código...
+  PRUEBA1.vcxproj -> B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\PRUEBA1\x64\Debug\PRUEBA1.exe
