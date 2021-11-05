@@ -1,0 +1,5 @@
+﻿SobrecargaOperadores.obj : error LNK2005: ya se definió "struct Punto __cdecl operator*(struct Punto const &,struct Punto const &)" (??D@YA?AUPunto@@AEBU0@0@Z) en puntoOperadores.obj
+SobrecargaOperadores.obj : error LNK2005: ya se definió "struct Punto __cdecl operator-(struct Punto const &,struct Punto const &)" (??G@YA?AUPunto@@AEBU0@0@Z) en puntoOperadores.obj
+SobrecargaOperadores.obj : error LNK2005: ya se definió "struct Punto __cdecl operator+(struct Punto const &,struct Punto const &)" (??H@YA?AUPunto@@AEBU0@0@Z) en puntoOperadores.obj
+SobrecargaOperadores.obj : error LNK2005: ya se definió "struct Punto __cdecl operator/(struct Punto const &,struct Punto const &)" (??K@YA?AUPunto@@AEBU0@0@Z) en puntoOperadores.obj
+B:\PROYECTOS\VISUAL STUDIO CODE PROJECTS\SobrecargaOperadores\x64\Debug\SobrecargaOperadores.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
