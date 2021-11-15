@@ -1,0 +1,14 @@
+﻿  Conjunto.cpp
+  MainMenu.cpp
+C:\Users\jhona\Documents\Trabajos en CPP\Conjuntos\Conjuntos\MainMenu.cpp(14,27): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\jhona\Documents\Trabajos en CPP\Conjuntos\Conjuntos\MainMenu.cpp(24,27): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+  Generando código...
+  Conjuntos.vcxproj -> C:\Users\jhona\Documents\Trabajos en CPP\Conjuntos\Debug\Conjuntos.exe
