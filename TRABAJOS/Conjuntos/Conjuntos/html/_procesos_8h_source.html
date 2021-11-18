@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Conjuntos: Fichero Fuente Procesos.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Conjuntos<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Union e Interseccion de conjuntos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Procesos.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*  Universidad de las Fuerzas Armadas &quot;ESPE&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">*   Conjuntos</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">*   Nicolás Suquillo,Ariel Gonzalez,Paul Mena</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">*   15/11/2021</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">*   15/11/2021</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">*   7167 Estructura de datos</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_proceso.html">   21</a></span><span class="keyword">class </span><a class="code hl_class" href="class_proceso.html">Proceso</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_proceso.html#ae48f6fd172924eadb638eeafc886faf1">unir</a>(<span class="keywordtype">int</span>*c, <span class="keywordtype">int</span>* c2,<span class="keywordtype">int</span>* cr, <span class="keywordtype">int</span> tr,<span class="keywordtype">int</span> t);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_proceso.html#ad319fe5c92d42cd5bcd2cb0491e63fff">ordenar</a>(<span class="keywordtype">int</span> t, <span class="keywordtype">int</span>* cr);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_proceso.html#a0f7ec95140f894b08e1182422e33f8e8">eliminar</a>(<span class="keywordtype">int</span> t, <span class="keywordtype">int</span>* cr);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_proceso.html#ad29a2d20d775fde22077b6c9e7bd291e">intersecar</a>(<span class="keywordtype">int</span> t, <span class="keywordtype">int</span>* cr);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+<div class="ttc" id="aclass_proceso_html"><div class="ttname"><a href="class_proceso.html">Proceso</a></div><div class="ttdoc">Proceso Indica el Proceso.</div><div class="ttdef"><b>Definition:</b> Procesos.h:21</div></div>
+<div class="ttc" id="aclass_proceso_html_a0f7ec95140f894b08e1182422e33f8e8"><div class="ttname"><a href="class_proceso.html#a0f7ec95140f894b08e1182422e33f8e8">Proceso::eliminar</a></div><div class="ttdeci">int eliminar(int t, int *cr)</div><div class="ttdoc">eliminar Elimina los numeros que se repiten de un conjunto</div><div class="ttdef"><b>Definition:</b> Procesos.cpp:38</div></div>
+<div class="ttc" id="aclass_proceso_html_ad29a2d20d775fde22077b6c9e7bd291e"><div class="ttname"><a href="class_proceso.html#ad29a2d20d775fde22077b6c9e7bd291e">Proceso::intersecar</a></div><div class="ttdeci">int intersecar(int t, int *cr)</div><div class="ttdoc">intersecar Elimina los numeros que no se repiten de un conjunto</div><div class="ttdef"><b>Definition:</b> Procesos.cpp:59</div></div>
+<div class="ttc" id="aclass_proceso_html_ad319fe5c92d42cd5bcd2cb0491e63fff"><div class="ttname"><a href="class_proceso.html#ad319fe5c92d42cd5bcd2cb0491e63fff">Proceso::ordenar</a></div><div class="ttdeci">void ordenar(int t, int *cr)</div><div class="ttdoc">ordenar Ordena un conjunto</div><div class="ttdef"><b>Definition:</b> Procesos.cpp:25</div></div>
+<div class="ttc" id="aclass_proceso_html_ae48f6fd172924eadb638eeafc886faf1"><div class="ttname"><a href="class_proceso.html#ae48f6fd172924eadb638eeafc886faf1">Proceso::unir</a></div><div class="ttdeci">void unir(int *c, int *c2, int *cr, int tr, int t)</div><div class="ttdoc">unir Realiza la union de dos conjuntos</div><div class="ttdef"><b>Definition:</b> Procesos.cpp:7</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>
