@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1636689002 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\memoriadinamicaclase\main.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<stdio.h>
+	"src\Funciones.cpp"
+
+1636689002 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\memoriadinamicaclase\src\funciones.cpp
+	"Funciones.h"
+	<iostream>
+	<stdlib.h>
+
+1636686156 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\memoriadinamicaclase\include\funciones.h
+
+1636689002 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\memoriadinamicaclase\src\funciones.cpp
+	"Funciones.h"
+	<iostream>
+	<stdlib.h>
+
