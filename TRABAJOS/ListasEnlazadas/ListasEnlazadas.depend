@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1637561042 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listasenlazadas\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Lista.h"
+	"Nodo.h"
+
+1637560520 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listasenlazadas\src\nodo.cpp
+	"../include/Nodo.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1637560360 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listasenlazadas\include\nodo.h
+
+1637561053 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listasenlazadas\src\lista.cpp
+	"Lista.h"
+	"Nodo.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1637560648 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listasenlazadas\include\lista.h
+	"Nodo.h"
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
