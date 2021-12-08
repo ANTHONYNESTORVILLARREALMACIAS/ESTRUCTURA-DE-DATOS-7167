@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto_Unidad_1: Fichero Fuente ListaDobleCircular.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto_Unidad_1<span id="projectnumber">&#160;1.9</span>
+   </div>
+   <div id="projectbrief">Ingreso de datos con una lista circular doblemente enlazada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ListaDobleCircular.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_lista_doble_circular_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LISTADOBLECIRCULAR_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define LISTADOBLECIRCULAR_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_nodo_8h.html">Nodo.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;random&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">* @brief ListaDobleCircular clase dedicada a la creacion de una lista circular doblemente enlazada</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_lista_doble_circular.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="class_lista_doble_circular.html">ListaDobleCircular</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    * @brief ListaDobleCircular constructor vacio</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_function" href="class_lista_doble_circular.html#a5445f5190035f2c519b528e2e5e82bdd">ListaDobleCircular</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">    * @brief insertar se ingresa datos a la lista</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">    * @param Persona</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#abd55d24edb50cb60935475e2077d85d7">insertar</a>(<a class="code hl_class" href="class_persona.html">Persona</a>);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">    * @brief eliminarNodo se elimina un nodo en especifico</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">    * @param long int se ingresa el dato a buscar(cedula)</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#a159737e5539959e3f639d16411520a6e">eliminarNodo</a>(<span class="keywordtype">long</span> <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">    * @brief modificar se modifica un nodo en especifico</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">    * @param long int se ingresa el dato a buscar(cedula)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#a44539cd176b9880b242632e07c4e5622">modificar</a>(<span class="keywordtype">long</span> <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">    * @brief imprimir imprime la lista</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#aa99a9dc46e9afccbbd0eaf6840b011d9">imprimir</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">    * @brief vacio devuelve un valor booleano si esta o no vacia</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_lista_doble_circular.html#a541cc9b2fc7713f21c6238f1e280a886">vacio</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="comment">    * @brief getPrimero obtiene el dato primero</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">    * @return primero</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* <a class="code hl_function" href="class_lista_doble_circular.html#ae6878472c6170053b629c24140c21f2f">getPrimero</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">    * @brief getUltimo obtiene el dato ultimo</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">    * @return utlimo</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* <a class="code hl_function" href="class_lista_doble_circular.html#aa12cb15579c206e6834064c6882a4448">getUltimo</a>();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">    * @brief setPrimero setea el dato primero</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">    * @param Nodo*</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#afaf992cfc21d2248ee09f3129c697651">setPrimero</a>(<a class="code hl_class" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="comment">    * @brief setUltimo setea el dato ultimo</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">    * @param Nodo*</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#a889ebd73b454e354babcbadccfe4095c">setUltimo</a>(<a class="code hl_class" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">    * @brief buscarNodo busca un nodo especifico</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="comment">    * @param long int se ingresa el dato a buscar(cedula)</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_lista_doble_circular.html#ad74cc538670667881e704bfb3eeff145">buscarNodo</a>(<span class="keywordtype">long</span> <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* primero;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* ultimo;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>};</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif </span><span class="comment">// LISTADOBLECIRCULAR_H</span></div>
+<div class="ttc" id="a_nodo_8h_html"><div class="ttname"><a href="_nodo_8h.html">Nodo.h</a></div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html"><div class="ttname"><a href="class_lista_doble_circular.html">ListaDobleCircular</a></div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.h:20</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_a159737e5539959e3f639d16411520a6e"><div class="ttname"><a href="class_lista_doble_circular.html#a159737e5539959e3f639d16411520a6e">ListaDobleCircular::eliminarNodo</a></div><div class="ttdeci">void eliminarNodo(long int)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:47</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_a44539cd176b9880b242632e07c4e5622"><div class="ttname"><a href="class_lista_doble_circular.html#a44539cd176b9880b242632e07c4e5622">ListaDobleCircular::modificar</a></div><div class="ttdeci">void modificar(long int)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:89</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_a541cc9b2fc7713f21c6238f1e280a886"><div class="ttname"><a href="class_lista_doble_circular.html#a541cc9b2fc7713f21c6238f1e280a886">ListaDobleCircular::vacio</a></div><div class="ttdeci">bool vacio()</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:18</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_a5445f5190035f2c519b528e2e5e82bdd"><div class="ttname"><a href="class_lista_doble_circular.html#a5445f5190035f2c519b528e2e5e82bdd">ListaDobleCircular::ListaDobleCircular</a></div><div class="ttdeci">ListaDobleCircular()</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:13</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_a889ebd73b454e354babcbadccfe4095c"><div class="ttname"><a href="class_lista_doble_circular.html#a889ebd73b454e354babcbadccfe4095c">ListaDobleCircular::setUltimo</a></div><div class="ttdeci">void setUltimo(Nodo *)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:147</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_aa12cb15579c206e6834064c6882a4448"><div class="ttname"><a href="class_lista_doble_circular.html#aa12cb15579c206e6834064c6882a4448">ListaDobleCircular::getUltimo</a></div><div class="ttdeci">Nodo * getUltimo()</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:141</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_aa99a9dc46e9afccbbd0eaf6840b011d9"><div class="ttname"><a href="class_lista_doble_circular.html#aa99a9dc46e9afccbbd0eaf6840b011d9">ListaDobleCircular::imprimir</a></div><div class="ttdeci">void imprimir()</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:125</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_abd55d24edb50cb60935475e2077d85d7"><div class="ttname"><a href="class_lista_doble_circular.html#abd55d24edb50cb60935475e2077d85d7">ListaDobleCircular::insertar</a></div><div class="ttdeci">void insertar(Persona)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:25</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_ad74cc538670667881e704bfb3eeff145"><div class="ttname"><a href="class_lista_doble_circular.html#ad74cc538670667881e704bfb3eeff145">ListaDobleCircular::buscarNodo</a></div><div class="ttdeci">void buscarNodo(long int)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:151</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_ae6878472c6170053b629c24140c21f2f"><div class="ttname"><a href="class_lista_doble_circular.html#ae6878472c6170053b629c24140c21f2f">ListaDobleCircular::getPrimero</a></div><div class="ttdeci">Nodo * getPrimero()</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:138</div></div>
+<div class="ttc" id="aclass_lista_doble_circular_html_afaf992cfc21d2248ee09f3129c697651"><div class="ttname"><a href="class_lista_doble_circular.html#afaf992cfc21d2248ee09f3129c697651">ListaDobleCircular::setPrimero</a></div><div class="ttdeci">void setPrimero(Nodo *)</div><div class="ttdef"><b>Definition:</b> ListaDobleCircular.cpp:144</div></div>
+<div class="ttc" id="aclass_nodo_html"><div class="ttname"><a href="class_nodo.html">Nodo</a></div><div class="ttdef"><b>Definition:</b> Nodo.h:17</div></div>
+<div class="ttc" id="aclass_persona_html"><div class="ttname"><a href="class_persona.html">Persona</a></div><div class="ttdef"><b>Definition:</b> Persona.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

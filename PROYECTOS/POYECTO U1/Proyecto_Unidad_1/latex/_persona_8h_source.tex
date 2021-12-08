@@ -1,0 +1,55 @@
+\hypertarget{_persona_8h_source}{}\doxysection{Persona.\+h}
+\mbox{\hyperlink{_persona_8h}{Ir a la documentación de este archivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef PERSONA\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define PERSONA\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_cedula_8h}{Cedula.h}}"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_vehiculos_8h}{Vehiculos.h}}"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_fecha__de__nacimiento_8h}{Fecha\_de\_nacimiento.h}}"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{9 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{19 \textcolor{comment}{/*}}
+\DoxyCodeLine{20 \textcolor{comment}{* @brief Persona clase dedicada a la creacion de una Persona}}
+\DoxyCodeLine{21 \textcolor{comment}{*/}}
+\DoxyCodeLine{22 \textcolor{keyword}{class }\mbox{\hyperlink{class_persona}{Persona}}}
+\DoxyCodeLine{23 \{}
+\DoxyCodeLine{24 \textcolor{keyword}{public}:}
+\DoxyCodeLine{36     \mbox{\hyperlink{class_persona_af5280cb65149e488d620f92fa33bfefc}{Persona}}(\textcolor{keywordtype}{string}, \textcolor{keywordtype}{string}, \textcolor{keywordtype}{string}, \textcolor{keywordtype}{string}, \mbox{\hyperlink{class_vehiculos}{Vehiculos}}, \mbox{\hyperlink{class_fecha__de__nacimiento}{Fecha\_de\_nacimiento}}, \mbox{\hyperlink{class_cedula}{Cedula}}, \textcolor{keywordtype}{string});}
+\DoxyCodeLine{40     \mbox{\hyperlink{class_persona_af5280cb65149e488d620f92fa33bfefc}{Persona}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{45     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_persona_a794e32e660e8279873c126c787f0f8ea}{getNombre1}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_a432b9f5069bfa71377a51069081adeeb}{setNombre1}}(\textcolor{keywordtype}{string} newNombre1);}
+\DoxyCodeLine{55     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_persona_ae08450bf2c3298e82a90bcda6a1899bc}{getNombre2}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{60     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_a6b870562b045c7ed0083f442dc65c296}{setNombre2}}(\textcolor{keywordtype}{string} newNombre2);}
+\DoxyCodeLine{65     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_persona_aedb380c1b1c92e3291f3d322c04c12fe}{getApellido1}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{70     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_a4d7c17f5f8019a455d8cdbf42d0866e1}{setApellido1}}(\textcolor{keywordtype}{string} newApellido1);}
+\DoxyCodeLine{75     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_persona_adacaf8c9ba59626d1eae81666bed7d75}{getApellido2}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{80     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_aa61aa7b02389ee6c4bafaee5d9173cf9}{setApellido2}}(\textcolor{keywordtype}{string} newApellido2);}
+\DoxyCodeLine{85     \mbox{\hyperlink{class_vehiculos}{Vehiculos}} \mbox{\hyperlink{class_persona_acc779dbcd5e4e3387f553f53ee21e3db}{getVehiculo}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{90     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_a75f2efa091407d85aa64af5d1e86ba6b}{setVehiculo}}(\mbox{\hyperlink{class_vehiculos}{Vehiculos}} newVehiculo);}
+\DoxyCodeLine{95     \mbox{\hyperlink{class_fecha__de__nacimiento}{Fecha\_de\_nacimiento}} \mbox{\hyperlink{class_persona_a8efc140d8b8f7d2a6b38aab6c2037fea}{getFec\_naci}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{100     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_a75d38c9555325ba4e06730b0259284f2}{setFec\_naci}}(\mbox{\hyperlink{class_fecha__de__nacimiento}{Fecha\_de\_nacimiento}} newFec\_naci);}
+\DoxyCodeLine{105     \mbox{\hyperlink{class_cedula}{Cedula}} \mbox{\hyperlink{class_persona_af1dca1832122ac26ca0bc969bf931b52}{getCedula}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{110     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_af31f3c05b164b4f77f0b6cb6f8232764}{setCedula}}(\mbox{\hyperlink{class_cedula}{Cedula}} newCedula);}
+\DoxyCodeLine{115     \textcolor{keywordtype}{string} \mbox{\hyperlink{class_persona_a18ec8a10264ae7d04392162c282a35da}{getCorreo}}();}
+\DoxyCodeLine{120     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_ae714ef663876ca2228ce0aa9e0c3752c}{setCorreo}}(\textcolor{keywordtype}{string} newCorreo);}
+\DoxyCodeLine{124     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_persona_af0bd4724cf681ea5c9cd52feb2e215bf}{mostrarPersona}}();}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{126 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{127 \textcolor{keyword}{private}:}
+\DoxyCodeLine{128     \textcolor{keywordtype}{string} nombre1;}
+\DoxyCodeLine{129     \textcolor{keywordtype}{string} nombre2;}
+\DoxyCodeLine{130     \textcolor{keywordtype}{string} apellido1;}
+\DoxyCodeLine{131     \textcolor{keywordtype}{string} apellido2;}
+\DoxyCodeLine{132     \mbox{\hyperlink{class_vehiculos}{Vehiculos}} vehiculo;}
+\DoxyCodeLine{133     \mbox{\hyperlink{class_fecha__de__nacimiento}{Fecha\_de\_nacimiento}} fec\_naci;}
+\DoxyCodeLine{134     \mbox{\hyperlink{class_cedula}{Cedula}} cedula;}
+\DoxyCodeLine{135     \textcolor{keywordtype}{string} correo;}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{137 \};}
+\DoxyCodeLine{138 }
+\DoxyCodeLine{139 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// PERSONA\_H}}
+
+\end{DoxyCode}

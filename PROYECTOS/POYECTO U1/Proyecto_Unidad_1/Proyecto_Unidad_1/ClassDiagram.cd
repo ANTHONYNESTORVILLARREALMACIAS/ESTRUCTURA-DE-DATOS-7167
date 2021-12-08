@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cedula">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Cedula.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fecha_de_nacimiento">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAAAAEAAQZAAAAAAABAAAAAAAAAEAA=</HashCode>
+      <FileName>Fecha_de_nacimiento.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Generador">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAAAIAAAAAAAAAAAAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>Generador.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IngresoDatos">
+    <Position X="6.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAACAAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IngresoDatos.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListaDobleCircular">
+    <Position X="8.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAIAgIAAAAAgAAAAgAAgAIAAAQAACAAACA=</HashCode>
+      <FileName>ListaDobleCircular.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nodo">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAgAAAAAAAAAEACAAACAAAAAAAABAQAQAAEA=</HashCode>
+      <FileName>Nodo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persona">
+    <Position X="14.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAkQAYAECsBAAQAAABEAAAACABAQNAAAEAAA=</HashCode>
+      <FileName>Persona.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Validaciones">
+    <Position X="4" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAABIABAEgACBAAAAACQAAAACAAAAAAA=</HashCode>
+      <FileName>Validaciones.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehiculos">
+    <Position X="6.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQAAQAAAAIAAABEAAAAATAAAAAgAAIgAA=</HashCode>
+      <FileName>Vehiculos.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
