@@ -15,6 +15,7 @@ class ListaDobleEnlazada
         void mostrarInicio();
         void mostrarFin();
         void borrarValor(int);
+        bool buscarValor(int);
     protected:
 
     private:

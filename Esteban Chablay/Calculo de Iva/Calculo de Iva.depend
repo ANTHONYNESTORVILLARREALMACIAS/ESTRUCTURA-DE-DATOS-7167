@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1638540062 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<cstring>
+	"ListaDobleEnlazada.h"
+	"Calculo.h"
+	"Nodo.h"
+
+1638503060 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\src\calculo.cpp
+	"Calculo.h"
+
+1638502748 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\include\calculo.h
+
+1638504293 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\src\nodo.cpp
+	"Nodo.h"
+	"Calculo.h"
+
+1638504201 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\include\nodo.h
+	"Calculo.h"
+
+1638504784 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\src\listadobleenlazada.cpp
+	"ListaDobleEnlazada.h"
+	"Nodo.h"
+	"Calculo.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1638503600 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\calculo de iva\include\listadobleenlazada.h
+	"Calculo.h"
+	"Nodo.h"
+

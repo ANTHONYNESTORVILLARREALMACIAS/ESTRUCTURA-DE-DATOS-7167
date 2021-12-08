@@ -1,20 +1,25 @@
 #ifndef LISTADOBLEENLAZADA_H
 #define LISTADOBLEENLAZADA_H
-#include <iostream>
+#include "Calculo.h"
 #include "Nodo.h"
 
-using namespace std;
 
 class ListaDobleEnlazada
 {
     public:
         ListaDobleEnlazada();
-        void agregar(int );
+        void agregar(Calculo );
         void mostrarInicioFin();
         void mostrarFinInicio();
         void mostrarInicio();
         void mostrarFin();
         void borrarValor(int);
+        void borrarInicio();
+        void borrarFin();
+        int tamanoLista();
+        void insertarInicio(Calculo);
+        void insertarPosicion(int, Calculo);
+        void agregarDescuento(int);
     protected:
 
     private:

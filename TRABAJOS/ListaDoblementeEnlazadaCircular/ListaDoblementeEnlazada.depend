@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1637714970 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\main.cpp
+1637730251 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\main.cpp
 	<iostream>
 	"ListaDobleEnlazada.h"
 
@@ -8,11 +8,11 @@
 
 1637709683 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\include\nodo.h
 
-1637714239 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\include\listadobleenlazada.h
+1637728537 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\include\listadobleenlazada.h
 	<iostream>
 	"Nodo.h"
 
-1637714946 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\src\listadobleenlazada.cpp
+1637729117 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\listadoblementeenlazada\src\listadobleenlazada.cpp
 	"ListaDobleEnlazada.h"
 	"Nodo.h"
 	<iostream>

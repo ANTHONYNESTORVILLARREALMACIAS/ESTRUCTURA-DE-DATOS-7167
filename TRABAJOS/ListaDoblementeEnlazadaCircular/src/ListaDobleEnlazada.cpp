@@ -18,31 +18,33 @@ void ListaDobleEnlazada::agregar(int val){
     if(inicio==NULL){
         inicio = nuevo;
         fin = nuevo;
-        nuevo->izq=NULL;
-        nuevo->der=NULL;
+        nuevo->izq=inicio;
+        nuevo->der=fin;
     } else{
         nuevo->izq=fin;
         fin->der=nuevo;
         fin=fin->der;
-        nuevo->der=NULL;
+        nuevo->der=inicio;
     }
 
 }
 
 void ListaDobleEnlazada::mostrarInicioFin(){
     Nodo* reco = inicio;
-    while(reco!=NULL){
+    while(reco!=fin){
         cout<<"- "<<reco->info <<endl;
         reco=reco->der;
     }
+    cout<<"- "<<fin->info<<endl;
 }
 
 void ListaDobleEnlazada::mostrarFinInicio(){
     Nodo *reco = fin;
-    while(reco!=NULL){
+    while(reco!=inicio){
         cout<<"- "<<reco->info<<endl;
         reco=reco->izq;
     }
+    cout<<"- "<<inicio->info<<endl;
 }
 
 void ListaDobleEnlazada::mostrarInicio(){
@@ -54,6 +56,7 @@ void ListaDobleEnlazada::mostrarFin(){
 }
 
 void ListaDobleEnlazada::borrarValor(int valor){
+    //bool encontrado=false;
     if (inicio==NULL){
         cout<<"No se puede borrar el elemento "<<valor<<" porque la lista esta vacia."<<endl;
     }if(inicio->info==valor){
@@ -84,5 +87,29 @@ void ListaDobleEnlazada::borrarValor(int valor){
             reco=reco->der;
         }
     }
-
 }
+
+bool ListaDobleEnlazada::buscarValor(int val){
+    Nodo* reco = inicio;
+    bool encontrado;
+    int contador;
+    while(reco!=fin){
+        if(reco->info == val){
+            encontrado = true;
+            contador = contador +1;
+        }
+    }
+    if(fin->info == val){
+        encontrado = true;
+        contador = contador +1;
+    }
+    else{
+        cout<<"No se ha encontrado el valor "<<val<<" en la lista."<<endl;
+        encontrado = false;
+    }
+    return encontrado;
+    //cout<<"- "<<fin->info<<endl;
+}
+
+
+
