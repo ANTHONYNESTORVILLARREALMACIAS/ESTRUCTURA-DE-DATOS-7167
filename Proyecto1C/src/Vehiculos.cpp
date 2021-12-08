@@ -1,0 +1,101 @@
+#include "../include/Vehiculos.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::getPlaca()
+// Purpose:    Implementation of Vehiculos::getPlaca()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+string Vehiculos::getPlaca(void)
+{
+   return placa;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::setPlaca(char newPlaca)
+// Purpose:    Implementation of Vehiculos::setPlaca()
+// Parameters:
+// - newPlaca
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Vehiculos::setPlaca(string newPlaca)
+{
+   placa = newPlaca;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::getColor()
+// Purpose:    Implementation of Vehiculos::getColor()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+string Vehiculos::getColor(void)
+{
+   return color;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::setColor(char newColor)
+// Purpose:    Implementation of Vehiculos::setColor()
+// Parameters:
+// - newColor
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Vehiculos::setColor(string newColor)
+{
+   color = newColor;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::getMarca()
+// Purpose:    Implementation of Vehiculos::getMarca()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+string Vehiculos::getMarca(void)
+{
+   return marca;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::setMarca(char newMarca)
+// Purpose:    Implementation of Vehiculos::setMarca()
+// Parameters:
+// - newMarca
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Vehiculos::setMarca(string newMarca)
+{
+   marca = newMarca;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::getKilometraje()
+// Purpose:    Implementation of Vehiculos::getKilometraje()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+string Vehiculos::getKilometraje(void)
+{
+   return kilometraje;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vehiculos::setKilometraje(char newKilometraje)
+// Purpose:    Implementation of Vehiculos::setKilometraje()
+// Parameters:
+// - newKilometraje
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Vehiculos::setKilometraje(string newKilometraje)
+{
+   kilometraje = newKilometraje;
+}
+Vehiculos::Vehiculos(string newKilometraje)
+{
+	this->kilometraje = newKilometraje;
+}
