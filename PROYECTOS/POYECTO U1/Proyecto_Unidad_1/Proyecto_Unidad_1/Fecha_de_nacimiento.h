@@ -1,34 +1,60 @@
-/***********************************************************************
- * Module:  Fecha_de_nacimiento.h
- * Author:  Anthony
- * Modified: jueves, 18 de noviembre de 2021 18:47:33
- * Purpose: Declaration of the class Fecha_de_nacimiento
- ***********************************************************************/
+#ifndef FECHA_DE_NACIMIENTO_H
+#define FECHA_DE_NACIMIENTO_H
+#include <iostream>
+#include <string>
 
-#if !defined(__PROYECTO2_Fecha_de_nacimiento_h)
-#define __PROYECTO2_Fecha_de_nacimiento_h
+using namespace std;
 
+/**
+* @file Fecha_de_nacimiento.h
+* @version 1.9.2
+* @date 08/12/2021
+* @author Anthony Villarreal, Ariel Pozo, Esteban Chablay, Espinoza Luis
+* @title Proyecto_Unidad_1
+*/
 class Persona;
-
+/*
+* @brief Fecha_de_nacimiento clase dedicada a la creacion de una fecha
+*/
 class Fecha_de_nacimiento
 {
 public:
-   char getDia(void);
-   void setDia(char newDia);
-   char getMes(void);
-   void setMes(char newMes);
-   char getAno(void);
-   void setAno(char newAno);
-
-   Persona* persona;
-
+    /*
+    * @brief getDia obtiene el dia
+    * @return dia
+    */
+    string getDia(void);
+    /*
+    * @brief setDia setea el dia
+    * @param string newDia
+    */
+    void setDia(string newDia);
+    /*
+    * @brief getMes obtiene el mes
+    * @return mes
+    */
+    string getMes(void);
+    /*
+    * @brief setMes setea el mes
+    * @param string newMes
+    */
+    void setMes(string newMes);
+    /*
+    * @brief getAnio obtiene el anio
+    * @return anio
+    */
+    string getAnio(void);
+    /*
+    * @brief setAnio setea el anio
+    * @param string newAnio
+    */
+    void setAnio(string newAnio);
+    
 protected:
 private:
-   char dia;
-   char mes;
-   char ano;
-
-
+	string dia;
+	string mes;
+	string anio;
 };
 
-#endif
+#endif // FECHA_DE_NACIMIENTO_H

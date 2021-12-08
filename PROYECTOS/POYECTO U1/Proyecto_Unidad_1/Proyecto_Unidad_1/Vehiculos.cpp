@@ -1,11 +1,3 @@
-/***********************************************************************
- * Module:  Vehiculos.cpp
- * Author:  Anthony
- * Modified: jueves, 18 de noviembre de 2021 18:00:31
- * Purpose: Implementation of the class Vehiculos
- ***********************************************************************/
-
-#include "Persona.h"
 #include "Vehiculos.h"
 
 ////////////////////////////////////////////////////////////////////////
@@ -14,7 +6,7 @@
 // Return:     char
 ////////////////////////////////////////////////////////////////////////
 
-char Vehiculos::getPlaca(void)
+string Vehiculos::getPlaca(void)
 {
    return placa;
 }
@@ -27,7 +19,7 @@ char Vehiculos::getPlaca(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Vehiculos::setPlaca(char newPlaca)
+void Vehiculos::setPlaca(string newPlaca)
 {
    placa = newPlaca;
 }
@@ -38,7 +30,7 @@ void Vehiculos::setPlaca(char newPlaca)
 // Return:     char
 ////////////////////////////////////////////////////////////////////////
 
-char Vehiculos::getColor(void)
+string Vehiculos::getColor(void)
 {
    return color;
 }
@@ -51,7 +43,7 @@ char Vehiculos::getColor(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Vehiculos::setColor(char newColor)
+void Vehiculos::setColor(string newColor)
 {
    color = newColor;
 }
@@ -62,7 +54,7 @@ void Vehiculos::setColor(char newColor)
 // Return:     char
 ////////////////////////////////////////////////////////////////////////
 
-char Vehiculos::getMarca(void)
+string Vehiculos::getMarca(void)
 {
    return marca;
 }
@@ -75,7 +67,7 @@ char Vehiculos::getMarca(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Vehiculos::setMarca(char newMarca)
+void Vehiculos::setMarca(string newMarca)
 {
    marca = newMarca;
 }
@@ -86,7 +78,7 @@ void Vehiculos::setMarca(char newMarca)
 // Return:     char
 ////////////////////////////////////////////////////////////////////////
 
-char Vehiculos::getKilometraje(void)
+string Vehiculos::getKilometraje(void)
 {
    return kilometraje;
 }
@@ -99,7 +91,11 @@ char Vehiculos::getKilometraje(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Vehiculos::setKilometraje(char newKilometraje)
+void Vehiculos::setKilometraje(string newKilometraje)
 {
    kilometraje = newKilometraje;
+}
+Vehiculos::Vehiculos(string newKilometraje)
+{
+	this->kilometraje = newKilometraje;
 }

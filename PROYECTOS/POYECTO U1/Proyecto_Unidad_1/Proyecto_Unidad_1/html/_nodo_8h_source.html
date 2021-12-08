@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Proyecto_Unidad_1: Fichero Fuente Nodo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto_Unidad_1<span id="projectnumber">&#160;1.9</span>
+   </div>
+   <div id="projectbrief">Ingreso de datos con una lista circular doblemente enlazada</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Nodo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_nodo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef NODO_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define NODO_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_persona_8h.html">Persona.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include&lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">* @brief Nodo clase dedicada a la creacion de un nodo</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_nodo.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="class_nodo.html">Nodo</a> {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_function" href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo</a>(<a class="code hl_class" href="class_persona.html">Persona</a>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_class" href="class_persona.html">Persona</a> <a class="code hl_function" href="class_nodo.html#a748998f5f04bd19d3fcb3f2927b85cb7">getDato</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_nodo.html#afd0d669a97342442d43b2168d3f3837a">setDato</a>(<a class="code hl_class" href="class_persona.html">Persona</a>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* <a class="code hl_function" href="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb">getSiguiente</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_nodo.html#aff63c6559debcfd67f152d5e802243cd">setSiguiente</a>(<a class="code hl_class" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* <a class="code hl_function" href="class_nodo.html#a8365114416f931403a7e029c07be6677">getAnterior</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35">setAnterior</a>(<a class="code hl_class" href="class_nodo.html">Nodo</a>*);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <a class="code hl_class" href="class_persona.html">Persona</a> dato;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* siguiente;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <a class="code hl_class" href="class_nodo.html">Nodo</a>* anterior;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif </span><span class="comment">// NODO_H</span></div>
+<div class="ttc" id="a_persona_8h_html"><div class="ttname"><a href="_persona_8h.html">Persona.h</a></div></div>
+<div class="ttc" id="aclass_nodo_html"><div class="ttname"><a href="class_nodo.html">Nodo</a></div><div class="ttdef"><b>Definition:</b> Nodo.h:17</div></div>
+<div class="ttc" id="aclass_nodo_html_a1c1e1cd8fc4f38f64c5413dce321b7bb"><div class="ttname"><a href="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb">Nodo::getSiguiente</a></div><div class="ttdeci">Nodo * getSiguiente()</div><div class="ttdoc">getSiguiente obtiene el dato siguiente</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:18</div></div>
+<div class="ttc" id="aclass_nodo_html_a748998f5f04bd19d3fcb3f2927b85cb7"><div class="ttname"><a href="class_nodo.html#a748998f5f04bd19d3fcb3f2927b85cb7">Nodo::getDato</a></div><div class="ttdeci">Persona getDato()</div><div class="ttdoc">getDato obtiene el dato</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:10</div></div>
+<div class="ttc" id="aclass_nodo_html_a8365114416f931403a7e029c07be6677"><div class="ttname"><a href="class_nodo.html#a8365114416f931403a7e029c07be6677">Nodo::getAnterior</a></div><div class="ttdeci">Nodo * getAnterior()</div><div class="ttdoc">getAnterior obtiene el dato anterior</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:26</div></div>
+<div class="ttc" id="aclass_nodo_html_a9585dc00a21b22c925735f3f66a98d35"><div class="ttname"><a href="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35">Nodo::setAnterior</a></div><div class="ttdeci">void setAnterior(Nodo *)</div><div class="ttdoc">setAnterior setea el dato anterior</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:30</div></div>
+<div class="ttc" id="aclass_nodo_html_ac30bd1bed827ef8784fd3cebd032e9a4"><div class="ttname"><a href="class_nodo.html#ac30bd1bed827ef8784fd3cebd032e9a4">Nodo::Nodo</a></div><div class="ttdeci">Nodo()</div><div class="ttdoc">Nodo constructor vacio de la clase Vehiculos.</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:34</div></div>
+<div class="ttc" id="aclass_nodo_html_afd0d669a97342442d43b2168d3f3837a"><div class="ttname"><a href="class_nodo.html#afd0d669a97342442d43b2168d3f3837a">Nodo::setDato</a></div><div class="ttdeci">void setDato(Persona)</div><div class="ttdoc">setDato setea el dato</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:14</div></div>
+<div class="ttc" id="aclass_nodo_html_aff63c6559debcfd67f152d5e802243cd"><div class="ttname"><a href="class_nodo.html#aff63c6559debcfd67f152d5e802243cd">Nodo::setSiguiente</a></div><div class="ttdeci">void setSiguiente(Nodo *)</div><div class="ttdoc">setSiguiente setea el dato siguiente</div><div class="ttdef"><b>Definition:</b> Nodo.cpp:22</div></div>
+<div class="ttc" id="aclass_persona_html"><div class="ttname"><a href="class_persona.html">Persona</a></div><div class="ttdef"><b>Definition:</b> Persona.h:23</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

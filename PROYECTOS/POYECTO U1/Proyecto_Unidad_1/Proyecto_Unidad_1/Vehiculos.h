@@ -1,37 +1,80 @@
-/***********************************************************************
- * Module:  Vehiculos.h
- * Author:  Anthony
- * Modified: jueves, 18 de noviembre de 2021 18:00:31
- * Purpose: Declaration of the class Vehiculos
- ***********************************************************************/
+#ifndef VEHICULOS_H
+#define VEHICULOS_H
+#include <iostream>
+#include <string>
 
-#if !defined(__PROYECTO2_Vehiculos_h)
-#define __PROYECTO2_Vehiculos_h
+using namespace std;
 
-class Persona;
+/**
+* @file Vehiculos.h
+* @version 1.9.2
+* @date 08/12/2021
+* @author Anthony Villarreal, Ariel Pozo, Esteban Chablay, Espinoza Luis
+* @title Proyecto_Unidad_1
+*/
 
+/*
+* @brief Vehiculos clase dedicada a la creacion de vehiculos
+*/
 class Vehiculos
 {
 public:
-   char getPlaca(void);
-   void setPlaca(char newPlaca);
-   char getColor(void);
-   void setColor(char newColor);
-   char getMarca(void);
-   void setMarca(char newMarca);
-   char getKilometraje(void);
-   void setKilometraje(char newKilometraje);
-
-   Persona* persona;
+	/**
+	* @brief Constructor por defecto de la clase Vehiculos
+	* @param  string Indica la placa,color,marca y kilometraje
+	*/
+	Vehiculos(string);
+	/**
+	* @brief Vehiculos constructor vacio de la clase Vehiculos
+	*/
+	Vehiculos() = default;
+	/**
+	* @brief getPlaca obtiene la placa
+	* @return string
+	*/
+	string getPlaca(void);
+	/**
+	* @brief setPlaca setea la placa
+	* @param string newPlaca
+	*/
+	void setPlaca(string newPlaca);
+	/**
+	* @brief getColor obtiene el color
+	* @return string
+	*/
+	string getColor(void);
+	/**
+	* @brief setColor setea el color
+	* @param string newColor
+	*/
+	void setColor(string newColor);
+	/**
+	* @brief getMarca ovtiene la marca
+	* @return string
+	*/
+	string getMarca(void);
+	/**
+	* @brief setMarca setea la marca
+	* @param string newMarca
+	*/
+	void setMarca(string newMarca);
+	/**
+	* @brief getKilometraje obtiene el kilometraje
+	* @return string
+	*/
+	string getKilometraje(void);
+	/**
+	* @brief setKilometraje setea el kilometraje
+	* @param string newKilometraje
+	*/
+	void setKilometraje(string newKilometraje);
 
 protected:
 private:
-   char placa;
-   char color;
-   char marca;
-   char kilometraje;
-
-
+	string placa;
+	string color;
+	string marca;
+	string kilometraje;
 };
 
-#endif
+#endif // VEHICULOS_H

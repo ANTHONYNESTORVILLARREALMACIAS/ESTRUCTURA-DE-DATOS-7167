@@ -1,29 +1,46 @@
-/***********************************************************************
- * Module:  Cedula.h
- * Author:  Anthony
- * Modified: jueves, 18 de noviembre de 2021 18:00:12
- * Purpose: Declaration of the class Cedula
- ***********************************************************************/
+#ifndef CEDULA_H
+#define CEDULA_H
+#include <iostream>
+#include <string>
 
-#if !defined(__PROYECTO2_Cedula_h)
-#define __PROYECTO2_Cedula_h
+using namespace std;
 
-class Persona;
+/**
+* @file Cedula.h
+* @version 1.9.2
+* @date 08/12/2021
+* @author Anthony Villarreal, Ariel Pozo, Esteban Chablay, Espinoza Luis
+* @title Proyecto_Unidad_1
+*/
 
+/*
+* @brief Cedula clase dedicada a la creacion de una cedula
+*/
 class Cedula
 {
 public:
-   char getNumCedula(void);
-   void setNumCedula(char newNumCedula);
-   char validarCedula(void);
-
-   Persona* persona;
-
+	/*
+	* @brief Cedula constructor de cedula por defecto
+	* @param long int
+	*/
+	Cedula(long int);
+	/*
+	* @brief Cedula constructor vacio por defecto
+	*/
+	Cedula() = default;
+	/*
+	* @brief getNumCedula obtiene el numero de la cedula
+	* @return numCedula
+	*/
+	long int getNumCedula(void);
+	/*
+	* @brief setNumCedula setea el numero de la cedula
+	* @param long int newNumCedula
+	*/
+	void setNumCedula(long int newNumCedula);
 protected:
 private:
-   char numCedula;
-
-
+	long int numCedula;
 };
 
-#endif
+#endif // CEDULA_H

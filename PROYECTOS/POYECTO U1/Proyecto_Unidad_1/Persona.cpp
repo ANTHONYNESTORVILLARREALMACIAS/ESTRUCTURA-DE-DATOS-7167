@@ -1,0 +1,231 @@
+/***********************************************************************
+ * Module:  Persona.cpp
+ * Author:  Anthony
+ * Modified: jueves, 18 de noviembre de 2021 19:00:20
+ * Purpose: Implementation of the class Persona
+ ***********************************************************************/
+
+#include "Persona.h"
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getNombre1()
+// Purpose:    Implementation of Persona::getNombre1()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+char Persona::getNombre1(void)
+{
+   return nombre1;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setNombre1(char newNombre1)
+// Purpose:    Implementation of Persona::setNombre1()
+// Parameters:
+// - newNombre1
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setNombre1(char newNombre1)
+{
+   nombre1 = newNombre1;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getNombre2()
+// Purpose:    Implementation of Persona::getNombre2()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+char Persona::getNombre2(void)
+{
+   return nombre2;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setNombre2(char newNombre2)
+// Purpose:    Implementation of Persona::setNombre2()
+// Parameters:
+// - newNombre2
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setNombre2(char newNombre2)
+{
+   nombre2 = newNombre2;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getApellido1()
+// Purpose:    Implementation of Persona::getApellido1()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+char Persona::getApellido1(void)
+{
+   return apellido1;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setApellido1(char newApellido1)
+// Purpose:    Implementation of Persona::setApellido1()
+// Parameters:
+// - newApellido1
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setApellido1(char newApellido1)
+{
+   apellido1 = newApellido1;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getApellido2()
+// Purpose:    Implementation of Persona::getApellido2()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+char Persona::getApellido2(void)
+{
+   return apellido2;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setApellido2(char newApellido2)
+// Purpose:    Implementation of Persona::setApellido2()
+// Parameters:
+// - newApellido2
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setApellido2(char newApellido2)
+{
+   apellido2 = newApellido2;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getVehiculo()
+// Purpose:    Implementation of Persona::getVehiculo()
+// Return:     Vehiculos
+////////////////////////////////////////////////////////////////////////
+
+Vehiculos Persona::getVehiculo(void)
+{
+   return vehiculo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setVehiculo(Vehiculos newVehiculo)
+// Purpose:    Implementation of Persona::setVehiculo()
+// Parameters:
+// - newVehiculo
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setVehiculo(Vehiculos newVehiculo)
+{
+   vehiculo = newVehiculo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getFec_naci()
+// Purpose:    Implementation of Persona::getFec_naci()
+// Return:     Fecha_de_nacimiento
+////////////////////////////////////////////////////////////////////////
+
+Fecha_de_nacimiento Persona::getFec_naci(void)
+{
+   return fec_naci;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setFec_naci(Fecha_de_nacimiento newFec_naci)
+// Purpose:    Implementation of Persona::setFec_naci()
+// Parameters:
+// - newFec_naci
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setFec_naci(Fecha_de_nacimiento newFec_naci)
+{
+   fec_naci = newFec_naci;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getCedula()
+// Purpose:    Implementation of Persona::getCedula()
+// Return:     Cedula
+////////////////////////////////////////////////////////////////////////
+
+Cedula Persona::getCedula(void)
+{
+   return cedula;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setCedula(Cedula newCedula)
+// Purpose:    Implementation of Persona::setCedula()
+// Parameters:
+// - newCedula
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setCedula(Cedula newCedula)
+{
+   cedula = newCedula;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::getCorreo()
+// Purpose:    Implementation of Persona::getCorreo()
+// Return:     char
+////////////////////////////////////////////////////////////////////////
+
+char Persona::getCorreo(void)
+{
+   return correo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::setCorreo(char newCorreo)
+// Purpose:    Implementation of Persona::setCorreo()
+// Parameters:
+// - newCorreo
+// Return:     void
+////////////////////////////////////////////////////////////////////////
+
+void Persona::setCorreo(char newCorreo)
+{
+   correo = newCorreo;
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::Persona(char n1, char n2, char ap1, char ap2, Vehiculos veh, Fecha_de_nacimiento fnac, Cedula ced, char cor)
+// Purpose:    Implementation of Persona::Persona()
+// Parameters:
+// - n1
+// - n2
+// - ap1
+// - ap2
+// - veh
+// - fnac
+// - ced
+// - cor
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Persona::Persona(char n1, char n2, char ap1, char ap2, Vehiculos veh, Fecha_de_nacimiento fnac, Cedula ced, char cor)
+{
+   // TODO : implement
+}
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Persona::~Persona()
+// Purpose:    Implementation of Persona::~Persona()
+// Return:     
+////////////////////////////////////////////////////////////////////////
+
+Persona::~Persona()
+{
+   // TODO : implement
+}

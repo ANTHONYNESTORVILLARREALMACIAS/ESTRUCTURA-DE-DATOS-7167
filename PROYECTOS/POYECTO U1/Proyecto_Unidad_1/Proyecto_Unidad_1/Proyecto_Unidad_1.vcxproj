@@ -141,15 +141,30 @@
   <ItemGroup>
     <ClCompile Include="Cedula.cpp" />
     <ClCompile Include="Fecha_de_nacimiento.cpp" />
+    <ClCompile Include="Generador.cpp" />
+    <ClCompile Include="IngresoDatos.cpp" />
+    <ClCompile Include="ListaDobleCircular.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Persona.cpp" />
-    <ClCompile Include="Proyecto_Unidad_1.cpp" />
+    <ClCompile Include="Validaciones.cpp" />
     <ClCompile Include="Vehiculos.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cedula.h" />
     <ClInclude Include="Fecha_de_nacimiento.h" />
+    <ClInclude Include="Generador.h" />
+    <ClInclude Include="IngresoDatos.h" />
+    <ClInclude Include="ListaDobleCircular.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Validaciones.h" />
     <ClInclude Include="Vehiculos.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
