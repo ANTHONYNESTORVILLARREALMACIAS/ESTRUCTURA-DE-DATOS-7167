@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a8deedf-9387-4636-b3c2-9dfa338e091c": {
+      "ProjectGuid": "8a8deedf-9387-4636-b3c2-9dfa338e091c",
+      "DisplayName": "ComplejoClase",
+      "ColorIndex": 0
+    },
+    "9220a157-554a-4712-8a95-9a1a2055b409": {
+      "ProjectGuid": "9220a157-554a-4712-8a95-9a1a2055b409",
+      "DisplayName": "PruebaUnitariaComplejo",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

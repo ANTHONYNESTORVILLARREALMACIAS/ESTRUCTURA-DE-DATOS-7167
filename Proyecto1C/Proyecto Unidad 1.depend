@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1638922692 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\cedula.cpp
+	"../include/Cedula.h"
+
+1638922692 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\cedula.h
+	<iostream>
+	<string>
+
+1638972796 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\main.cpp
+	<iostream>
+	<string.h>
+	<string>
+	"include/Generador.h"
+	"include/Menu.h"
+
+1638835958 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\menu.h
+
+1638927248 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\fecha_de_nacimiento.cpp
+	"../include/Fecha_de_nacimiento.h"
+
+1638838693 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\fecha_de_nacimiento.h
+	<iostream>
+	<string>
+
+1638969976 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\ingresodatos.cpp
+	"../include/IngresoDatos.h"
+	"../include/Validaciones.h"
+	"../include/Generador.h"
+	<iostream>
+	<cstdlib>
+
+1638835958 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\ingresodatos.h
+	"Persona.h"
+	"Vehiculos.h"
+	"Cedula.h"
+
+1638922317 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\persona.h
+	"Cedula.h"
+	"Vehiculos.h"
+	"Fecha_de_nacimiento.h"
+	<iostream>
+	<string>
+
+1638835957 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\vehiculos.h
+	<iostream>
+	<string>
+
+1638928069 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\validaciones.h
+	<iostream>
+	<string.h>
+
+1638971851 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\listadoblecircular.cpp
+	"../include/ListaDobleCircular.h"
+	"../include/Persona.h"
+	"../include/Validaciones.h"
+	"../include/Generador.h"
+	"../include/IngresoDatos.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<fstream>
+
+1638970510 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\listadoblecircular.h
+	"Nodo.h"
+	<iostream>
+	<random>
+	<string>
+
+1638835958 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\nodo.h
+	"Persona.h"
+	<stdlib.h>
+
+1638972796 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\menu.cpp
+	"../include/Cedula.h"
+	"../include/Fecha_de_nacimiento.h"
+	"../include/Persona.h"
+	"../include/Vehiculos.h"
+	"../include/Menu.h"
+	"../include/IngresoDatos.h"
+	"../include/ListaDobleCircular.h"
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<string>
+	<fstream>
+
+1638927248 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\nodo.cpp
+	"../include/Nodo.h"
+
+1638838693 c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\include\generador.h
+	"Nodo.h"
+	<string>
+
+1638930841 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\persona.cpp
+	"../include/Persona.h"
+
+1638928119 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\validaciones.cpp
+	"../include/Validaciones.h"
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	<time.h>
+
+1638927248 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\vehiculos.cpp
+	"../include/Vehiculos.h"
+
+1638922040 source:c:\users\esteban\documents\materias s4\estructura de datos\programas codeblocks\proyecto unidad 1\src\generador.cpp
+	"../include/Generador.h"
+	"../include/Nodo.h"
+	"../include/Persona.h"
+	<iostream>
+	<string.h>
+	<string>
+

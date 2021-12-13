@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  PruebaUnitariaComplejo.cpp
+D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\PruebaUnitariaComplejo\PruebaUnitariaComplejo.cpp(20,11): warning C4101: 'y': variable local sin referencia
+D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\PruebaUnitariaComplejo\PruebaUnitariaComplejo.cpp(20,8): warning C4101: 'x': variable local sin referencia
+D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\PruebaUnitariaComplejo\PruebaUnitariaComplejo.cpp(38,11): warning C4101: 'y': variable local sin referencia
+D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\PruebaUnitariaComplejo\PruebaUnitariaComplejo.cpp(38,8): warning C4101: 'x': variable local sin referencia
+     Creando biblioteca D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\Debug\PruebaUnitariaComplejo.lib y objeto D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\Debug\PruebaUnitariaComplejo.exp
+  PruebaUnitariaComplejo.vcxproj -> D:\luis-\Documents\U\Software 3er Semestre\Estructura de Datos\Programas de visual studio\ComplejoClase\Debug\PruebaUnitariaComplejo.dll
